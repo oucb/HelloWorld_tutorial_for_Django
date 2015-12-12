@@ -77,7 +77,8 @@ urlpatterns = [
 在hellos应用目录下新建templates文件夹，在templates文件夹下新建hellos文件夹，在里面创建所需的模板文件hello.html与hello_world.html，目录结构大致如下：
 ```
 HelloWorld/
-    HelloWorld
+    manage.py
+    HelloWorld/
     hellos/
         templates/
             hellos/
@@ -130,7 +131,8 @@ HelloWorld/
 ```
 ###7.演示
 工程目录下，即与manage.py文件同一目录下执行：`python manage.py runserver`
-根据提示在浏览器输入相应的地址，默认为http://127.0.0.1:8000/hellos/hello，输入相应内容，提交后即可看到。
+根据提示在浏览器输入相应的地址，默认为http://127.0.0.1:8000/hellos/hello
+输入相应内容，提交后即可看到。
 
                 
     
